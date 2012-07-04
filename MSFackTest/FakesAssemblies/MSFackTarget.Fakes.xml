@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSFackTarget.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MSFackTarget.Fakes.ShimFileHelper">
+            <summary>Shim type of MSFackTarget.FileHelper</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileHelper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileHelper.#ctor(MSFackTarget.FileHelper)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileHelper.Constructor">
+            <summary>Sets the shim of FileHelper.FileHelper()</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileHelper.IsEmptyString">
+            <summary>Sets the shim of FileHelper.IsEmpty(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileHelper.IsNullOrEmptyString">
+            <summary>Sets the shim of FileHelper.IsNullOrEmpty(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileHelper.IsNullString">
+            <summary>Sets the shim of FileHelper.IsNull(String fileName)</summary>
+        </member>
+        <member name="T:MSFackTarget.Fakes.ShimFileHelper.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileHelper.AllInstances.IsEmptyString">
+            <summary>Sets the shim of FileHelper.IsEmpty(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileHelper.AllInstances.IsNullString">
+            <summary>Sets the shim of FileHelper.IsNull(String fileName)</summary>
+        </member>
+        <member name="T:MSFackTarget.Fakes.ShimFileWrapper">
+            <summary>Shim type of MSFackTarget.FileWrapper</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileWrapper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileWrapper.#ctor(MSFackTarget.FileWrapper)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileWrapper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.ShimFileWrapper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.ConstructorFileHelper">
+            <summary>Sets the shim of FileWrapper.FileWrapper(FileHelper fileHelper)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.IsFileEmptyString">
+            <summary>Sets the shim of FileWrapper.IsFileEmpty(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.IsFileExistString">
+            <summary>Sets the shim of FileWrapper.IsFileExist(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.IsFileNullOrEmptyString">
+            <summary>Sets the shim of FileWrapper.IsFileNullOrEmpty(String fileName)</summary>
+        </member>
+        <member name="T:MSFackTarget.Fakes.ShimFileWrapper.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.AllInstances.IsFileEmptyString">
+            <summary>Sets the shim of FileWrapper.IsFileEmpty(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.AllInstances.IsFileExistString">
+            <summary>Sets the shim of FileWrapper.IsFileExist(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.ShimFileWrapper.AllInstances.IsFileNullOrEmptyString">
+            <summary>Sets the shim of FileWrapper.IsFileNullOrEmpty(String fileName)</summary>
+        </member>
+        <member name="T:MSFackTarget.Fakes.StubFileHelper">
+            <summary>Stub type of MSFackTarget.FileHelper</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.StubFileHelper.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.StubFileHelper.InitializeStub">
+            <summary>Initializes a new instance of type StubFileHelper</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.StubFileHelper.IsNull(System.String)">
+            <summary>Sets the stub of FileHelper.IsNull(String fileName)</summary>
+        </member>
+        <member name="F:MSFackTarget.Fakes.StubFileHelper.IsNullString">
+            <summary>Sets the stub of FileHelper.IsNull(String fileName)</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.StubFileHelper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.StubFileHelper.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.StubFileHelper.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MSFackTarget.Fakes.StubFileWrapper">
+            <summary>Stub type of MSFackTarget.FileWrapper</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.StubFileWrapper.#ctor(MSFackTarget.FileHelper)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MSFackTarget.Fakes.StubFileWrapper.InitializeStub">
+            <summary>Initializes a new instance of type StubFileWrapper</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.StubFileWrapper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.StubFileWrapper.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MSFackTarget.Fakes.StubFileWrapper.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

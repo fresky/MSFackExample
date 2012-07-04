@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSFackTarget", "MSFackTarget\MSFackTarget.csproj", "{CA0A640C-0616-4CD4-BC7B-DE46ABC4F7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSFackTest", "MSFackTest\MSFackTest.csproj", "{1CB860FF-70CE-49C8-B0D6-2AC461BD6F07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CB860FF-70CE-49C8-B0D6-2AC461BD6F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB860FF-70CE-49C8-B0D6-2AC461BD6F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB860FF-70CE-49C8-B0D6-2AC461BD6F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB860FF-70CE-49C8-B0D6-2AC461BD6F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA0A640C-0616-4CD4-BC7B-DE46ABC4F7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0A640C-0616-4CD4-BC7B-DE46ABC4F7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0A640C-0616-4CD4-BC7B-DE46ABC4F7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0A640C-0616-4CD4-BC7B-DE46ABC4F7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
